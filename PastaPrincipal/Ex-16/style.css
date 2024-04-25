@@ -12,6 +12,18 @@ header {
     text-align: center;
 }
 
+a[href="#p1"],
+a[href="#p2"],
+a[href="#p3"] {
+    color:rgb(39, 20, 42);
+}
+    
+a[href="#p1"]:hover, 
+a[href="#p2"]:hover, 
+a[href="#p3"]:hover {
+    color: lightgray;
+}
+
 main {
     background-color: whitesmoke;
     border-radius: 10px;
@@ -24,15 +36,15 @@ main {
     height: 200px;
 }
 
-#footer-01 {
+footer.footer-01 {
     color:rgb(39, 20, 42);
-    font-style: bold;
+    font-weight: 550;
     font-size: 15pt;
     text-align: center;
     margin-top: 20px;
 }
 
-#footer-02 {
+footer.footer-02 {
     color:rgb(39, 20, 42);
     font-size: 14pt;
     font-style: italic;
