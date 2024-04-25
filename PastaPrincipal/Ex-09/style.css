@@ -1,0 +1,40 @@
+body {
+    background-color: darksalmon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    background-image: url(Peach\ Minimalist\ Real\ Estate\ \(Poster\ \(Landscape\)\)\ \(2\).png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    color:rgb(56, 5, 15);
+    text-align: center;
+}
+
+main {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 36%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+#footer-01 {
+    color:rgb(56, 5, 15);
+    font-style: bold;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer-02 {
+    color:rgb(56, 5, 15);
+    font-size: 14pt;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+
