@@ -22,15 +22,15 @@ main {
     box-shadow: 5px 5px 10px black;
 }
 
-#footer-01 {
+footer.footer-01 {
     color:rgb(20, 57, 39);
-    font-style: bold;
+    font-weight: 550;
     font-size: 15pt;
     text-align: center;
     margin-top: 20px;
 }
 
-#footer-02 {
+footer.footer-02 {
     color:rgb(20, 57, 39);
     font-size: 14pt;
     font-style: italic;
