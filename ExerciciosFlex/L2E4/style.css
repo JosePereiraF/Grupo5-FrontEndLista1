@@ -1,0 +1,52 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.linha {
+    height: 50px;
+    background-color: gray;
+    margin: 10px;
+  }
+  div {
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+    margin: 10px;
+  }
+  .caixa_header{
+    max-width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .caixa_principal {
+    max-width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .caixa_footer{
+    max-width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .caixa_vermelha{
+      flex: 1; 
+      max-height: 250px;
+      background-color: red;
+  }
+  
+  .caixa_verde{
+      flex: 1; /* Ajustando para ocupar todo o espaço restante, só funciona com display flex */
+      max-height: 250px;
+      background-color: green;
+  }
