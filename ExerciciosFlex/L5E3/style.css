@@ -23,7 +23,7 @@ div{
 
  }
 .l1{
-    background-color: aqua;
+    background-color: #6ab9c0;
     width: 5px;
     align-self: flex-end;
     order: 2;
@@ -32,13 +32,13 @@ div{
 section{
     flex: 1; 
     max-width: 30%;
-   background-color:aqua ;
+   background-color:#6ab9c0;
    height: 180%;
 }
 
 article{
     flex: 1;
-    background-color: #b62953;
+    background-color:#f16582;
     height: 180%;
     max-height: 180%;
 }

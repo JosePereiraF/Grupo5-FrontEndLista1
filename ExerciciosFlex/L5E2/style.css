@@ -11,7 +11,7 @@ body{
 }
 header{
     height: 8%;
-    background-color: aqua;
+    background-color:#6ab9c0;
     margin: 2px;
     margin-top: 20px;
 }
@@ -28,14 +28,14 @@ div{
     
 }
  .l1{
-    background-color:aqua;
+    background-color:#6ab9c0;
     height: 80%;  
     max-width: 80%;
     
     
  }
  .l2{
-    background-color: #b62953;
+    background-color: #f16582;
     height: 80%;
     max-width: 30%;
     
@@ -44,10 +44,10 @@ div{
 section{
     flex: 1; 
     max-width: 30%;
-   background-color:aqua ;
+   background-color:#6ab9c0;
 }
 
 article{
     flex: 1;
-    background-color: #b62953;
+    background-color: #f16582;
 }

@@ -22,7 +22,7 @@ div{
     
 }
  .l1{
-    background-color:aqua;
+    background-color:#6ab9c0;
     height: 80%;  
     max-width: 80%;
     width: 5px;
@@ -33,7 +33,7 @@ div{
     
  }
  .l2{
-    background-color: grey;
+    background-color: #a89da5 ;
     height: 80%;
     max-width: 30%;
     width: 5px;
@@ -44,7 +44,7 @@ div{
     
  }
  .l3{
-    background-color: gray;
+    background-color: #a89da5 ;
     max-width: 100%;
     width: 5px;
     align-self: flex-start;
@@ -55,12 +55,12 @@ div{
 section{
     flex:1; 
     max-width: 30%;
-   background-color:aqua ;
+   background-color:#6ab9c0 ;
    max-height: 8000%;
    
 }
 
 article{
     flex: 1;
-    background-color: #b62953;
+    background-color:#f16582;
 }
