@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 5%;
+    margin: 1%;
+    margin-bottom: 0%;
+    background-color: aqua;
+}
+div{
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 95%);
+    width: auto;
+
+}
+div.div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 1%;
+    gap: 2%;
+    height: auto;
+    
+}
+#divc{
+    height: auto;
+    margin: 1% 0%;
+    background-color: #FB3640;
+
+}
+#divR{
+    flex-direction: column-reverse;
+}
+
+main{
+    flex: 1;
+    background-color: aqua;
+}
+aside{
+    flex: 1;
+    background-color: #6e7271;
+
+}
+

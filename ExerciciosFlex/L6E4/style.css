@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+header {
+  height: 45%;
+  margin: 1%;
+  margin-bottom: 0%;
+  background-color: #fb3640;
+}
+div {
+  display: flex;
+  margin: 1%;
+  margin-bottom: 0%;
+  gap: 1%;
+  height: 10%;
+}
+footer {
+  display: flex;
+  gap: 1%;
+  margin: 1%;
+  height: 45%;
+}
+aside {
+  flex: 1;
+  height: auto;
+  background-color: #6e7271;
+}
+main {
+  flex: 1;
+  background-color: aqua;
+}
+aside.footer {
+  flex: 1;
+  height: auto;
+  background-color: aqua;
+}
