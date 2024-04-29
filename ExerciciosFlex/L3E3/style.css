@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: rgb(208, 16, 16);
+    --azul: aquamarine;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+header {
+    background-color: var(--azul);
+    height: 30%;
+    flex: 1;
+    margin: 10px;
+}
+
+
+.cards {
+    display: flex;
+    height: 70%;
+    gap: 10px;
+}
+
+.esquerda {
+    background-color: var(--vermelho);
+    flex: 1;
+    margin-left: 10px;
+}
+
+.centro {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.meio {
+    background-color: var(--azul);
+    flex: 1;
+}
+
+.direita {
+    background-color: var(--vermelho);
+    flex: 1;
+    margin-right: 10px;
+}
+
+.esquerda, .direita, .centro {
+    margin-bottom: 10px;
+}

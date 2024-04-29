@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --vermelho: rgba(221, 120, 111, 0.828);
+  --azul: aquamarine;
+  --cinza: rgb(150, 144, 144);
+}
+
+body {
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, .principal {
+  margin: 5px 10px;
+}
+
+header {
+  background-color: var(--vermelho);
+  height: 10vh;
+  margin-top: 10px;
+}
+
+.principal {
+  display: flex;
+  height: 90vh;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.conteudo {
+  background-color: var(--azul);
+  flex: 2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+.card {
+  background-color: var(--cinza);
+  flex: 1;
+}
+
+.card:nth-child(2) {
+  background-color: var(--vermelho);
+}

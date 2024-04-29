@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --vermelho: rgb(194, 88, 88);
+  --azul: aquamarine;
+  --cinza: rgb(139, 137, 137);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0px 10px;
+}
+
+.cabecalhos {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.cabecalho {
+  background-color: var(--cinza);
+  flex: 2;
+}
+
+.cabecalho:last-child {
+  background-color: var(--azul);
+  flex: 1;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  gap: 10px;
+}
+
+.cima {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+.baixo {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: var(--vermelho);
+  flex: 1;
+}
+
+.cima .card:nth-child(1),
+.cima .card:nth-child(3) {
+  background-color: var(--azul);
+}
+
+.baixo .card:nth-child(2) {
+  background-color: var(--azul);
+}

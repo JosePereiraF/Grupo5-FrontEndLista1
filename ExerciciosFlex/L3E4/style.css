@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: red;
+    --aquamarine: aquamarine;
+    --cinza: gray;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header {
+    height: 10%;
+    background-color: var(--aquamarine);
+    margin: 10px 10px 0px 10px;
+}
+
+.principal {
+    height: 80%;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.principal .card:first-child {
+    background-color: var(--aquamarine);
+    flex: 1;
+}
+
+.principal .card:nth-child(2) {
+    background-color: var(--vermelho);
+    flex: 1;
+}
+
+.principal .card:nth-child(3) {
+    background-color: var(--cinza);
+    flex: 1;
+}
+
+.principal .card:last-child {
+    background-color: var(--aquamarine);
+    flex: 1;
+}
+
+footer {
+    height: 10%;
+    background-color: var(--aquamarine);
+    margin: 0px 10px 10px 10px; 
+}
