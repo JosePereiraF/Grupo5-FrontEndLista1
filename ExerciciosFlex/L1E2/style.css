@@ -13,6 +13,46 @@ body{
 }
 header{
     display: flex;
-    height: 10%;
-    background-color: red;
+    height: 15%;
+    margin: 1%;
+    gap: 1%;
+}
+div.container{
+    display: flex;
+    height: 85%;
+    margin: 1%;
+    margin-top: 0%;
+    gap: 1%;
+}
+div{
+    flex: 1;
+    height: auto;
+}
+#divC{
+    background-color: #6e7271;
+    max-width: 20%;
+}
+.divH {
+    height: 30%;
+    align-self: flex-end;
+    background-color: aqua;
+}
+.divE{
+    flex: 1;
+    background-color: aqua;
+}
+.divD{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    flex: 4;
+}
+aside{
+    flex: 1;
+    min-width: 20%;
+    background-color: #FB3640;
+}
+main{
+    flex: 1;
+    background-color: aqua;
 }
