@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cinza: gray;
+    --vermelho: red;
+    --aquamarine: aquamarine;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--cinza);
+    height: 30%;
+    margin: 10px;
+    margin-bottom: 0%;
+}
+
+.main {
+    display: flex;
+    height: 70%;
+    margin: 10px;
+    gap: 10px;
+}
+.principal {
+    gap: 10px;
+    flex: 2;
+    flex-direction: column;
+    height: auto;
+}
+
+.meiomaior {
+    background-color: var(--vermelho);
+    min-height: 40%;
+    margin-bottom: 10px;
+}
+
+.meiomenor {
+   display: flex;
+   height: 60%;
+   gap: 10px;
+}
+
+.meiomenor .card1 {
+    background-color: var(--aquamarine);
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.meiomenor .card2 {
+    background-color: var(--aquamarine);
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.lateral {
+    height: auto;
+    max-width: 25%;
+    background-color: var(--cinza);
+    flex: 1;
+}
+
+
+
+
+
+
