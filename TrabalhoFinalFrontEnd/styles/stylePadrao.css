@@ -7,7 +7,7 @@
   body{
     max-width: 100vw;
     max-height: 100vh;
-    background-image: url(imagens/Trabalho\ Final\ -\ Introdução\ Front-End.png);
+    background-image: url(../imagens/Background.png);
   }
   .container-fluid{
     height: 100px;   
