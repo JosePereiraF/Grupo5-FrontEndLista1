@@ -9,35 +9,10 @@
     max-height: 100vh;
     background-image: url(imagens/Trabalho\ Final\ -\ Introdução\ Front-End.png);
   }
- h1{
-    background-color: #D9D9D9;
-    text-align: center;
- } 
-.container-fluid{
+  .container-fluid{
     height: 100px;   
 }
-.Principal{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 100px;
-    gap: 80px;
-}
-.card-body{
-    background-color: #D9D9D9;
-}
-.card {
-    width: 100%;
-    margin-bottom: 20px; 
-}
-.card img {
-    width: 100%;
-    height: auto;
-}
-.card-text {
-    font-size: 14px;
-}
-ul.navbar-nav{
+  ul.navbar-nav{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,4 +32,5 @@ ul.navbar-nav li.nav-item{
 ul.navbar-nav li.nav-item img{
  justify-self: end;
 }
+
 
