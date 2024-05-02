@@ -32,15 +32,6 @@ ul.navbar-nav li.nav-item{
 ul.navbar-nav li.nav-item img{
  justify-self: end;
 }
-/* .body2{
-    margin: 0;  
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  */
 
 .slider{
     margin: 0 auto;
@@ -51,12 +42,7 @@ ul.navbar-nav li.nav-item img{
  
  
 }
-/* .container-slider{
-    margin: 0 auto;
-    width: 800%;
-    height: 400px;
-    overflow: hidden;
-}  */
+
 .slides{
     width: 3800px;
     height: 450px;
@@ -113,23 +99,24 @@ ul.navbar-nav li.nav-item img{
 #radio4:checked ~ .slide1{
     margin-left: -75%;
 }
-/* .botao-navegacao div{
-    border: 2px solid rgb(78, 32, 32);
-    padding: 5px;
-    border-radius: 80px;
-    cursor:pointer ;
-    transition: 1s; */
 
-/* .botao-navegacao{
-    position: absolute;
-    width: 800px;
-    margin-top: 30px;
+@media screen and (max-width: 900px){
+ .slide1{
+    width: 100%;
+    height:400px;
     display: flex;
-    justify-content: center;
-} */
-/* .botao-navegacao div:not(:last-child){
-    margin-right: 40px;
-} */
+    transition:1s;
+    
+} 
+.slide1 img{
+    width: 430px;
+}
+.manual-botao{
+    margin-right: 400px;
+    
+
+}
+}
 
 
 
