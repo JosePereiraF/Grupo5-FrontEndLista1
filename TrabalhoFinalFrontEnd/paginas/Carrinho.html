@@ -45,10 +45,10 @@
             <label for="opcao"><h2>Formas de Pagamento</h2></label>
             <br>
             <input type="radio" id="a-vista" class=a-vista name="opcao" value="a-vista"></input>
-            <label for="a-vista">À vista</label>
+            <label for="a-vista" id="aVista"></label>
             <br>
             <input type="radio" id="a-prazo" class="a-prazo" name="opcao" value="a-prazo"></input>
-            <label for="a-prazo">A prazo</label>
+            <label for="a-prazo" id="aPrazo"></label>
             <br>
             <input type="submit" value="selecionar">
             <br>
@@ -68,17 +68,15 @@
         <div class="right-container">
         <div class="top-right-container">
             <div class="top-box">
-            <h2 class="titulo-smartphone" id="titulo-smartphone">Smartphone X</h2>
+            <h2 class="titulo-smartphone" id="titulo-smartphone"></h2>
             </div>
             <div class="bottom-box">
-            <div class="imagem-smartphone">
-                <img src="../imagens/Galaxy-A55-padrao-sombra.png" height="200px">
+            <div class="6" id="imagem-smartphone">
+                <!-- <img src="../imagens/Galaxy-A55-padrao-sombra.png" height="200px"> -->
             </div>
             <div class="descricao-smartphone">
                 <h3>Características</h3>
-                <p>Câmera Principal 24MP</p>
-                <p>Câmera Frontal 12MP</p>
-                <p>Processador Octa-Core 3.2GHz</p>
+                
             </div>
             </div>
         </div>
@@ -105,7 +103,7 @@
             <p>(555) xxxxxxxx</p>
         </div>
     </footer>
-
+    <script src="../scripts/carrinho.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

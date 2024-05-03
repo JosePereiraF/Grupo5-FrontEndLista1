@@ -116,6 +116,15 @@ main {
   min-width: 380px 310px;
 }
 
+#imagem-smartphone{
+  max-height: 200px;
+  max-width: 200px;
+}
+#imagem-smartphone img {
+  flex: 1;
+  max-width: 100%; 
+  max-height: 100%; 
+}
 .right-container {
   display: flex;
   flex-direction: column;
