@@ -38,7 +38,7 @@ ul.navbar-nav li.nav-item img{
     box-sizing: border-box;
     margin: 0 auto;
     width: 900px;
-    height: 450px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -67,7 +67,7 @@ ul.navbar-nav li.nav-item img{
 .navegacao-manual{
     position:absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: -5px;
     display: flex;
     justify-content: center;
 }
@@ -136,7 +136,7 @@ footer {
     
 } 
 .slide1 img{
-    width: 430px;
+    width: 380px;
 }
 .manual-botao{
     margin-right: 400px;
