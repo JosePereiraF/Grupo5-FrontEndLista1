@@ -47,7 +47,7 @@ function addCarrinho(key){
         const carrinhoString = localStorage.getItem("carrinho");
         const carrinho = JSON.parse(carrinhoString);
         carrinho.push(produto);
-
+        alert("Produto adicionado ao carrinho");
         localStorage.setItem("carrinho",JSON.stringify(carrinho));
     }else if(key == carrinho2){
         const nome = "Smartphone y";
@@ -70,7 +70,7 @@ function addCarrinho(key){
         const carrinhoString = localStorage.getItem("carrinho");
         const carrinho = JSON.parse(carrinhoString);
         carrinho.push(produto);
-
+        alert("Produto adicionado ao carrinho");
         localStorage.setItem("carrinho",JSON.stringify(carrinho));
 
     }else if(key == carrinho3){
@@ -94,7 +94,7 @@ function addCarrinho(key){
         const carrinhoString = localStorage.getItem("carrinho");
         const carrinho = JSON.parse(carrinhoString);
         carrinho.push(produto);
-
+        alert("Produto adicionado ao carrinho");
         localStorage.setItem("carrinho",JSON.stringify(carrinho));
     }
 }

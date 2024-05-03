@@ -1,4 +1,9 @@
 const carrinho = JSON.parse(localStorage.getItem("carrinho"));
+const confirmacao = document.querySelector("#botao-confirmar-compra");
+
+confirmacao.addEventListener("click", ()=>{
+    Compra()
+})
 
 // const divDescricao = document.querySelector(".descricao-smartphone");//ok
 // const divImg = document.querySelector("#imagem-smartphone");//ok
@@ -38,6 +43,11 @@ const carrinho = JSON.parse(localStorage.getItem("carrinho"));
 // divDescricao.appendChild(lista);
 // divImg.appendChild(img);
 //caixa onde esta o texto aumenta criar um div dentro dessa caixa e jogar as imagens dentro desssa div ai é some mexer no tam da imagem
+
+function compra() {
+    localStorage.setItem("carrinho", JSON.stringify([]))
+}
+
 const title = document.querySelector("#titulo-smartphone");
 const h2 = document.createElement("h2");
 const valorAvista = document.querySelector("#aVista");
