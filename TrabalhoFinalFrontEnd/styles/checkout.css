@@ -114,3 +114,14 @@ footer{
         left: 80px;    
     }
 }
+#botao-confirmar-compra {
+  background-color: black;
+  width: 50px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 29%;
+  margin-top: 20px;
+  border-color: #1c1c1c00;
+}
