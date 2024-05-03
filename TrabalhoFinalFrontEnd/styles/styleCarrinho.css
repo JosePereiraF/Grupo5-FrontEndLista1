@@ -117,7 +117,7 @@ main {
 }
 
 #imagem-smartphone{
-  max-height: 200px;
+  max-height: 150px;
   max-width: 200px;
 }
 #imagem-smartphone img {
@@ -264,4 +264,18 @@ footer p {
     left: 100px;
     top: 125px;
   }
+}
+#divTotal{
+ display: flex;
+ flex-direction: row-reverse;
+ gap: 20px;
+ padding: 20px;
+}
+
+#imgCelCarrinho{
+  flex: 1;
+  max-height: 100px;
+}
+#listaCarrinho{
+  flex: 1;
 }

@@ -42,7 +42,7 @@ confirmacao.addEventListener("click", ()=>{
 // valorAvista.appendChild(avista);
 // divDescricao.appendChild(lista);
 // divImg.appendChild(img);
-//caixa onde esta o texto aumenta criar um div dentro dessa caixa e jogar as imagens dentro desssa div ai é some mexer no tam da imagem
+
 
 function compra() {
     localStorage.setItem("carrinho", JSON.stringify([]))
@@ -57,18 +57,20 @@ title.appendChild(h2);
 let total = 0;
 carrinho.forEach((item)=>{
     const divDescricao = document.querySelector(".descricao-smartphone");//ok
+    divDescricao.id ="divDescricao";
     const divImg = document.querySelector("#imagem-smartphone");//ok
     const img = document.createElement("img");
     
     img.src = item.img;
-
+    img.id ="imgCelCarrinho";
     const valorNumber =  Number(item.valor);
     total += valorNumber;
 
     
-
-   const lista = document.createElement("ul");
-
+    const divTotal = document.createElement("div");
+    divTotal.id= "divTotal";
+    const lista = document.createElement("ul");
+    lista.id = "listaCarrinho";
     const info1 = document.createElement("li");
     info1.textContent = item.camera;
     const info2 = document.createElement("li");
@@ -78,8 +80,9 @@ carrinho.forEach((item)=>{
     lista.appendChild(info1);
     lista.appendChild(info2);
     lista.appendChild(info3);
-    divDescricao.appendChild(lista);
-    divImg.appendChild(img);
+    divTotal.appendChild(lista);
+    divTotal.appendChild(img);
+    divDescricao.appendChild(divTotal);
 
 })
 const parcelado = document.createElement("p");
