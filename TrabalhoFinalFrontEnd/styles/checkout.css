@@ -45,7 +45,7 @@ ul.navbar-nav li.nav-item img{
 .container {
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     height: 600px;
     background-color: #d9d9d9;
     opacity: 0.85;
@@ -87,8 +87,12 @@ footer{
     text-decoration: none;
   }
   @media screen and (max-width: 800px) {
+   
+    
     footer{
         gap: 15px;
+        text-align: center;
+        font-weight: bold;
     }
     .logo{
         height: 100px;
